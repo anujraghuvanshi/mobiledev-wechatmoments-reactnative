@@ -1,0 +1,91 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Header Presentational Component Tests should match component snapshots 1`] = `
+<View
+  style={
+    Object {
+      "backgroundColor": "white",
+      "height": 230,
+    }
+  }
+  testID="header-container"
+>
+  <View
+    accessibilityIgnoresInvertColors={true}
+    style={
+      Object {
+        "alignItems": "flex-end",
+        "backgroundColor": "#f5f5f5",
+        "height": 200,
+        "justifyContent": "flex-end",
+        "width": "100%",
+      }
+    }
+  >
+    <Image
+      source={
+        Object {
+          "uri": "profile-image.url",
+        }
+      }
+      style={
+        Array [
+          Object {
+            "bottom": 0,
+            "left": 0,
+            "position": "absolute",
+            "right": 0,
+            "top": 0,
+          },
+          Object {
+            "height": 200,
+            "width": "100%",
+          },
+          undefined,
+        ]
+      }
+    />
+    <View
+      style={
+        Object {
+          "alignItems": "center",
+          "display": "flex",
+          "flexDirection": "row",
+        }
+      }
+    >
+      <Text
+        style={
+          Object {
+            "color": "#000",
+            "fontSize": 18,
+            "fontWeight": "bold",
+            "marginRight": 20,
+          }
+        }
+        testID="header-username"
+      >
+        john smith
+      </Text>
+      <Image
+        source={
+          Object {
+            "height": 64,
+            "uri": "avatar.url",
+            "width": 64,
+          }
+        }
+        style={
+          Object {
+            "backgroundColor": "#e4f0f5",
+            "borderRadius": 8,
+            "marginBottom": -24,
+            "marginRight": 24,
+          }
+        }
+        testID="user-image"
+      />
+    </View>
+  </View>
+</View>
+`;

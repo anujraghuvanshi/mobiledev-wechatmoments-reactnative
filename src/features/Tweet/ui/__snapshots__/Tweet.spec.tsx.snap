@@ -1,0 +1,212 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Tweet should match component snapshots 1`] = `
+<View
+  style={
+    Object {
+      "alignContent": "space-between",
+      "backgroundColor": "white",
+      "borderBottomColor": "lightgrey",
+      "borderBottomWidth": 1,
+      "flex": 1,
+      "flexDirection": "row",
+      "paddingBottom": 8,
+      "paddingRight": 8,
+      "paddingTop": 8,
+    }
+  }
+  testID="tweet-wrapper"
+>
+  <Image
+    source={
+      Object {
+        "height": 40,
+        "uri": "test-image.url",
+        "width": 40,
+      }
+    }
+    style={
+      Object {
+        "backgroundColor": "#e4f0f5",
+        "marginBottom": 16,
+        "marginRight": 16,
+      }
+    }
+    testID="sender-image"
+  />
+  <View
+    style={
+      Object {
+        "flex": 1,
+        "flexShrink": 1,
+      }
+    }
+  >
+    <View>
+      <Text
+        style={
+          Object {
+            "color": "#4152c9",
+            "fontWeight": "600",
+          }
+        }
+      >
+        john
+      </Text>
+      <View
+        style={
+          Object {
+            "flexDirection": "column",
+          }
+        }
+      >
+        <Text
+          numberOfLines={2}
+          style={
+            Object {
+              "color": "#a1a1a1",
+              "flexShrink": 1,
+              "flexWrap": "wrap",
+            }
+          }
+          testID="tweet-content"
+        >
+          tweet content
+        </Text>
+        <Text
+          onPress={[Function]}
+          style={
+            Object {
+              "color": "blue",
+            }
+          }
+          testID="read-more-trigger"
+        >
+          Read more
+        </Text>
+      </View>
+    </View>
+    <View
+      style={
+        Object {
+          "flex": 1,
+          "flexDirection": "column",
+        }
+      }
+    >
+      <View
+        style={
+          Object {
+            "flexDirection": "row",
+            "flexWrap": "wrap",
+            "paddingTop": 8,
+          }
+        }
+        testID="tweet-images-wrapper"
+      >
+        <Image
+          source={
+            Object {
+              "height": 64,
+              "uri": "image1.url",
+              "width": 64,
+            }
+          }
+          style={
+            Object {
+              "backgroundColor": "#e4f0f5",
+              "marginBottom": 16,
+              "marginRight": 16,
+            }
+          }
+          testID="tweet-image"
+        />
+        <Image
+          source={
+            Object {
+              "height": 64,
+              "uri": "image2.url",
+              "width": 64,
+            }
+          }
+          style={
+            Object {
+              "backgroundColor": "#e4f0f5",
+              "marginBottom": 16,
+              "marginRight": 16,
+            }
+          }
+          testID="tweet-image"
+        />
+      </View>
+    </View>
+    <View
+      style={
+        Object {
+          "flex": 1,
+          "flexDirection": "column",
+          "paddingTop": 8,
+        }
+      }
+      testID="tweet-comments-wrapper"
+    >
+      <View
+        style={
+          Object {
+            "backgroundColor": "#f7f7f7",
+            "flex": 1,
+            "flexDirection": "row",
+            "marginBottom": 4,
+            "padding": 2,
+            "width": "100%",
+          }
+        }
+      >
+        <Text
+          style={
+            Object {
+              "color": "#000",
+              "fontWeight": "bold",
+            }
+          }
+        >
+          user1
+          :
+           
+        </Text>
+        <Text>
+          Great tweet!
+        </Text>
+      </View>
+      <View
+        style={
+          Object {
+            "backgroundColor": "#f7f7f7",
+            "flex": 1,
+            "flexDirection": "row",
+            "marginBottom": 4,
+            "padding": 2,
+            "width": "100%",
+          }
+        }
+      >
+        <Text
+          style={
+            Object {
+              "color": "#000",
+              "fontWeight": "bold",
+            }
+          }
+        >
+          user2
+          :
+           
+        </Text>
+        <Text>
+          I agree
+        </Text>
+      </View>
+    </View>
+  </View>
+</View>
+`;
